@@ -1,5 +1,5 @@
-from dino_runner.components.game import Game
+import dino_runner.components.game
 
 if __name__ == "__main__":
-    game = Game()
-    game.run()
+    game = dino_runner.components.game.Game()
+    game.execute()
